@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  font-family: 'Roboto';
+  height: 40vh;
+}
+
+@media screen and (max-width: 767px) {
+  .body-container {
+    flex-direction: column;
+  }
+}
+
+.left-navbar {
+  display: flex;
+  flex-direction: column;
+  background-color: #cbd5e1;
+  padding: 15px;
+  height: 100%;
+  width: 30%;
+}
+
+@media screen and (max-width: 767px) {
+  .left-navbar {
+    width: 100%;
+  }
+}
+
+.left-navbar-heading {
+  font-size: 16px;
+  color: #475569;
+  padding-left: 10px;
+}
+
+.left-navbar-items {
+  list-style: none;
+  color: #64748b;
+}
+
+@media screen and (max-width: 767px) {
+  .left-navbar-items {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.list-item {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .list-item {
+    margin: 15px;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e8f0;
+  height: 100%;
+  margin: 10px;
+  width: 40%;
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .content-container {
+    width: 100%;
+  }
+}
+
+.content-para {
+  color: #64748b;
+}
+
+.content-heading {
+  color: #475569;
+  font-size: 16px;
+}
+
+.box-container {
+  height: 50%;
+  width: 100%;
+  border: solid 1px #475569;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  margin-bottom: 10px;
+}
